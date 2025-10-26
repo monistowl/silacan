@@ -1,3 +1,5 @@
+Example use:
+```
 from symbolic_controller import SymbolicLLM
 import torch
 
@@ -10,3 +12,4 @@ print(model.generate_with_context(ctx, prompt))
 
 ctx2 = "<ROLE=friend><NORM=casual><PRON=they>"
 print(model.generate_with_context(ctx2, prompt))
+```

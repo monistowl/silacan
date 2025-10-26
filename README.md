@@ -1,4 +1,3 @@
-#example use
 from symbolic_controller import SymbolicLLM
 import torch
 
